@@ -26,7 +26,7 @@ const App = () => {
         }
     }
 
-    const handleSubmit = (event: React.FormEvent): void => {
+    const handleSubmit = (): void => {
         if(taskText.trim() !== ''){
             setTasks([...tasks, {id: new Date().getTime(), text: taskText, isChecked: false}]);
             setTaskText('');

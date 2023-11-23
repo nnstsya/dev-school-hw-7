@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 export const ButtonsForAllTasks = ({ toggleCheckAllTasks, handleDeleteAllTask }: {
     toggleCheckAllTasks: (checked: boolean) => void;
-    handleDeleteAllTask: (event: React.MouseEvent<HTMLButtonElement>) => void
+    handleDeleteAllTask: () => void
     }) => {
     return (
         <Container className={ "select-all-container" }>
