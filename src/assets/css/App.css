@@ -64,7 +64,7 @@ body {
     text-decoration: line-through;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 576px) {
     .task-input {
         margin-top: 40px;
         width: 60%;
@@ -84,19 +84,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .task-input {
-        margin-top: 40px;
-        width: 60%;
-    }
-
-    .select-all-container {
-        width: 60%;
-    }
-
-    .task-container {
-        width: 60%;
-    }
-
     .task-description-container {
         max-width: 35vw;
     }
